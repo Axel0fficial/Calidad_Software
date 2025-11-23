@@ -1,0 +1,5 @@
+Method,Name,Error,Occurrences
+GET,GET /rest/products/search,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",78
+GET,GET /,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",113
+GET,GET /rest/products,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",235
+GET,GET /rest/products/:id,"ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",24
