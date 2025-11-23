@@ -14,3 +14,5 @@ Uso:
 - Correr el codigo con:
   *  ``python juice_shop_login_test.py``
   *  ``python juice_shop_register_from_csv.py``
+  *  ``locust -f locustfile2.py --host http://localhost:3000 --headless -t 10m --html stress_report.html --csv stress_results``
+  *  ``locust -f locustfile.py --host http://localhost:3000 -u 50 -r 5 -t 5m --headless --html load_report.html --csv load_results``
